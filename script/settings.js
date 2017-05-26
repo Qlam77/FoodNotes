@@ -20,7 +20,7 @@ firebase.auth().onAuthStateChanged(function(firebaseUser){
 $(function(){ 
     $("#logoutBtn").click(function(){
         firebase.auth().signOut();
-        alert("signed out");
+        alert("Signed Out");
     });
 });
 
